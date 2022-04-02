@@ -1,7 +1,10 @@
 # Bareksa_Intern_Test
 
 Created for Bareksa Backend Engineer Intern Selection Test.
-
+## Tech Stack
+- Golang (Echo Framework)
+- PostgreSQL
+- Pgadmin
 ## How to Run
 ### Windows
 Simply run `.\run.bat` on terminal.
