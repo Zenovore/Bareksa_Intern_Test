@@ -29,8 +29,8 @@ func main() {
 		AllowHeaders:     []string{"Accept", "Content-Type", "Content-Length", "Accept-Encoding", "CUSTOM-ALLOWED-HEADER", "Authorization", "Access-Key", "X-CSRF-Token,"},
 	}))
 
-	e.POST("/news/get_one", news.SearchOneNews())
-	e.POST("/news/get_many", news.SearchManyNews())
+	e.POST("/news/search_one", news.SearchOneNews())
+	e.POST("/news/search_many", news.SearchManyNews())
 	e.POST("/news/create", news.CreateNews())
 	e.POST("/news/update", news.UpdateNews())
 	e.POST("/news/delete", news.DeleteNews())
