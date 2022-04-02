@@ -3,16 +3,11 @@ package news
 type RequestSearchNews struct {
 	GUID             string `json:"guid" validate:"omitempty"`
 	Title            string `json:"title" validate:"omitempty"`
-	Tag              string `json:"tag" validate:"omitempty"`
 	Topic            string `json:"topic"`
 	IsPublishedValid int    `json:"is_published_valid" validate:"omitempty"`
 	IsPublished      int    `json:"is_published" validate:"omitempty"`
 	IsDeletedValid   int    `json:"is_deleted_valid" validate:"omitempty"`
 	IsDeleted        int    `json:"is_deleted" validate:"omitempty"`
-}
-
-type RequestFilterNews struct {
-	Tags []string `json:"tags" validate:"required"`
 }
 
 type RequestUpdateNews struct {
