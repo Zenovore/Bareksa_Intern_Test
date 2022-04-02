@@ -91,15 +91,6 @@ Simply run `.\run.bat` on terminal.
   "guid":""
 }
 ```
-
-### Delete News
-- POST `{{url}}/news/delete`
-- Request Body:
-```
-{
-  "guid":""
-}
-```
 ## Endpoints Tags
 ### Create Tag
 - POST `{{url}}/tags/create`
