@@ -11,9 +11,9 @@ var (
 func init() {
 	log.SetFlags(log.Llongfile)
 
-	log.Println("Account Initializing")
+	log.Println("Tags Initializing")
 
 	agent = NewService()
 
-	log.Println("Account Initialiazed")
+	log.Println("Tags Initialiazed")
 }
